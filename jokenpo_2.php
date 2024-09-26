@@ -3,12 +3,12 @@ $jogador1 = readline("Escolha entre papel, pedra ou tesoura \n faça a sua jogad
 //$jogador2 = readline("faça a sua jogada ");
 
 while ($jogador1!= "pedra" && $jogador1!= "papel" && $jogador1!= "tesoura"){
-    $jogador1 = readline("Escolha entre papel, pedra ou tesoura \n faça a sua jogada ");  
+    $jogador1 = readline("Escolha entre papel, pedra ou tesoura\n faça a sua jogada ");  
 }
 $jogadas = ["pedra","papel","tesoura"];
 $jogador2 = $jogadas[array_rand($jogadas)];
 
-echo "$jogador2 \n";
+echo " a jogada do jogador 2 é $jogador2 \n";
 if(($jogador1=== "pedra" && $jogador2 ==="tesoura" ) || 
 ($jogador1==="tesoura " && $jogador2 === "papel") ||
 ($jogador1==="papel" && $jogador2 === "pedra")) {
