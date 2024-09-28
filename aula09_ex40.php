@@ -17,6 +17,7 @@ $somatorio = 0;
 echo "a soma é $somatorio\n";
 /* echo "a soma é: " .array_sum($lista). "\n"
 $media = array_sum($lista)/count($lista);
+*/
 
 $media = $somatorio/10;
 echo "A media é : $media\n";
