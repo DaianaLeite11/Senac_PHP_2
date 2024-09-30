@@ -12,6 +12,7 @@ for($i=0; $i<10; $i++){
     If($numero>10){
         $saoMaiores++;
     }
+    
     }
    
 
